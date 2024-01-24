@@ -347,6 +347,7 @@ h3{
     font-weight: 400;
 }
 
+/* Modify these styles in your existing CSS file */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -355,10 +356,10 @@ h3{
     z-index: 1;
     opacity: 0;
     transition: opacity 0.5s;
-    min-width: 160px; 
+    min-width: 160px; /* Adjusted width */
     padding-bottom: 10px;
     animation: fadeIn 0.5s ease;
-    text-align: center; 
+    text-align: center; /* Center-align text horizontally */
 }
 
 .dropdown-content a {
@@ -378,28 +379,33 @@ h3{
     bottom: 5px;
 }
 
+/* Add hover styles to make the dropdown visible on hover */
 .dropdown:hover .dropdown-content {
     display: block;
     opacity: 1;
 }
 
+/* Center the entire dropdown menu under the "ABOUT" word */
 .dropdown-content {
     left: 50%;
     transform: translateX(-50%);
 }
 
+/* Center-align text vertically in the dropdown menu */
 .dropdown-content a {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* Center-align the floating line */
 .dropdown-line {
-    margin-top: 5px; 
+    margin-top: 5px; /* Adjusted space above the line */
 }
 
+/* Add fade effect on hover */
 .dropdown:hover .dropdown-line {
-    animation: fadeIn 0.5s ease;
+    opacity: 1;
 }
 
 @keyframes fadeIn {
