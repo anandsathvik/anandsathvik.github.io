@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaav healthcare - Verticals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo (1).png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li class="dropdown">
+                        <a href="about.html" class="dropbtn">ABOUT</a>
+                        <div class="dropdown-content">
+                            <a href="#">Verticals</a>
+                            <a href="#">Products</a>
+                            <a href="#">Business Solutions</a>
+                        </div>
+                    </li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Verticals</h1>
+    </section>
+    <section class="about-us">
+        <!-- First Vertical Section -->
+        <div class="row">
+            <div class="about-col">
+                <h1>Vertical Heading 1</h1>
+                <p>Replace this with your vertical content.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/vertical_image_placeholder.jpg">
+            </div>
+        </div>
+
+        <!-- Second Vertical Section -->
+        <div class="row">
+            <div class="about-col">
+                <h1>Vertical Heading 2</h1>
+                <p>Replace this with your vertical content.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/vertical_image_placeholder.jpg">
+            </div>
+        </div>
+
+        <!-- Repeat the above structure for additional verticals -->
+
+    </section>
+    <section class="footer">
+        <footer>
+            <p>&copy; 2023 Kaav Healthcare. All rights reserved.</p>
+        </footer>
+    </section>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
 
