@@ -356,7 +356,7 @@ h3{
     color: #fff;
     text-decoration: none;
     font-size: 13px;
-    padding: 8px 12px;
+    padding: 14px 12px; /* Adjusted height */
     position: relative;
 }
 
@@ -368,6 +368,7 @@ h3{
     z-index: 1;
     opacity: 0;
     transition: opacity 0.5s;
+    min-width: 160px; /* Adjusted minimum width */
 }
 
 .dropdown:hover .dropdown-content {
